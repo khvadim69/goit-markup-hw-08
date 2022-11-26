@@ -1,0 +1,107 @@
+.advantage {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.advantage__list {
+    @media (min-width: 480px) {
+        display:flex;
+        justify-content: space-between;
+    width: 1170px
+    }
+display:block;
+
+    ;
+}
+
+.adventage__card {
+    @media (min-width: 480px) {width: 270px;
+        
+    }
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:450px;
+    height: 120px;
+    background: var(--color-comand-section);
+    border-radius: 4px;
+    // display: block;
+    
+    
+}
+
+.adventage__icon {
+    display: flex;
+}
+
+
+.advantage__title {
+    padding-bottom: 10px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantage__text {
+    @media (min-width: 480px) {width: 270px;
+        
+    }
+    height: 72px;
+    width: 450px;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--color-link-text);
+}
+
+// .advantage {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+// }
+
+// .advantage__list {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 1170px;
+// }
+
+// .adventage__card {
+//     width: 270px;
+//     height: 120px;
+//     background: var(--color-comand-section);
+//     border-radius: 4px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-bottom: 30px;
+// }
+
+// .adventage__icon {
+//     display: flex;
+// }
+
+
+// .advantage__title {
+//     padding-bottom: 10px;
+//     display: inline-block;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+// }
+
+// .advantage__text {
+//     height: 72px;
+//     width: 270px;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     /* or 171% */
+//     letter-spacing: 0.03em;
+//     color: var(--color-link-text);
+// }

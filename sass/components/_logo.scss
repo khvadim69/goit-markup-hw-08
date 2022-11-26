@@ -1,0 +1,79 @@
+.logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    display: block;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo__footer {
+    margin-bottom: 20px;
+    display: block;
+    height: 31px;
+    width: 145px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.logo--blue {
+    color: var(--color-accent);
+}
+
+.logo--black {
+    color: var(--color-logo-studio);
+}
+
+.logo--white {
+    color: var(--color-title-secondary);
+}
+
+
+
+// .logo {
+//     margin-right: 93px;
+//     padding-top: 24px;
+//     padding-bottom: 25px;
+//     display: block;
+//     font-weight: 700;
+//     font-family: 'Raleway';
+//     font-size: 26px;
+//     line-height: 1.19;
+//     /* identical to box height */
+//     letter-spacing: 0.03em;
+//     text-decoration: none;
+// }
+
+// .logo__footer {
+//     margin-bottom: 20px;
+//     display: block;
+//     height: 31px;
+//     width: 145px;
+//     font-weight: 700;
+//     font-family: 'Raleway';
+//     font-size: 26px;
+//     line-height: 1.19;
+//     /* identical to box height */
+//     letter-spacing: 0.03em;
+// }
+
+// .logo--blue {
+//     color: var(--color-accent);
+// }
+
+// .logo--black {
+//     color: var(--color-logo-studio);
+// }
+
+// .logo--white {
+//     color: var(--color-title-secondary);
+// }

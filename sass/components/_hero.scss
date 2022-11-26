@@ -1,0 +1,88 @@
+.hero {   
+    @media  (min-width:480px) {
+    height: 600px;
+    
+}
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 400px;
+    background-color: var(--color-order-section);
+    background: var(--color-background-order);
+}
+
+.hero__backimage {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid var(--color-background-order);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url('../images/Img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-title {
+    @media (min-width:480px) {
+            width: 696px;
+            font-size: 44px;
+    
+        }
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+    width: 360px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.36;
+    /* or 136% */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-title-secondary);
+}
+
+
+
+// .hero {
+//     display: block;
+//     padding-top: 200px;
+//     padding-bottom: 200px;
+//     height: 600px;
+//     background-color: var(--color-order-section);
+//     background: var(--color-background-order);
+// }
+
+// .hero__backimage {
+//     max-width: 1600px;
+//     height: 600px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     outline: 1px solid var(--color-background-order);
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+//             rgba(47, 48, 58, 0.4)),
+//         url('../images/Img.jpg');
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+// }
+
+// .hero-title {
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-bottom: 30px;
+//     display: block;
+//     width: 696px;
+//     text-align: center;
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 1.36;
+//     /* or 136% */
+//     letter-spacing: 0.06em;
+//     text-transform: uppercase;
+//     color: var(--color-title-secondary);
+// }

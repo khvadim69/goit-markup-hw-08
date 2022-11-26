@@ -1,0 +1,52 @@
+.overflow {
+    position: absolute;
+    width: 370px;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(33, 150, 243, 0.9);
+    height: 294px;
+    transition-property: background-color, color;
+    transition-timing-function: linear;
+    transition-duration: 250ms;
+    transform: translateY(100%);
+    transition-property: transform;
+}
+
+.overflow__text {
+    display: block;
+    width: 370px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    letter-spacing: 0.03em;
+    color: var(--color-title-secondary);
+    padding: 64px 24px;
+}
+
+
+// .overflow {
+//     position: absolute;
+//     width: 370px;
+//     top: 0%;
+//     left: 0%;
+//     background-color: rgba(33, 150, 243, 0.9);
+//     height: 294px;
+//     transition-property: background-color, color;
+//     transition-timing-function: linear;
+//     transition-duration: 250ms;
+//     transform: translateY(100%);
+//     transition-property: transform;
+// }
+
+// .overflow__text {
+//     display: block;
+//     width: 370px;
+//     font-weight: 400;
+//     font-size: 18px;
+//     line-height: 28px;
+//     /* or 156% */
+//     letter-spacing: 0.03em;
+//     color: var(--color-title-secondary);
+//     padding: 64px 24px;
+// }

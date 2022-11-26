@@ -1,0 +1,147 @@
+.button {
+  padding: 6px 22px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.63;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  background-color: var(--color-comand-section);
+  border-color: transparent;
+  transition-property: background-color, box-shadow, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--color-title-secondary);
+    background-color: var(--color-accent);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+.button__order {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+  width: 216px;
+  height: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-title-secondary);
+  background-color: var(--color-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  transition-property: background-color, border, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  :focus {
+    background: var(--color-background);
+  }
+}
+
+.button__list {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+.button__mobile-menu {
+  display: block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  align-content: center;
+  letter-spacing: 0.03em;
+  background-color: transparent;
+  border-color: transparent;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @media (min-width: 480px) {
+      display:none;
+  }
+  &:hover,
+  &:focus {
+    fill: var(--color-accent);
+  }
+}
+
+.button__mobile-icon {
+  display: block;
+}
+
+// .button {
+//     padding: 6px 22px;
+//     cursor: pointer;
+//     font-family: inherit;
+//     font-weight: 500;
+//     line-height: 1.63;
+//     /* identical to box height, or 162% */
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     border-radius: 4px;
+//     background-color: var(--color-comand-section);
+//     border-color: transparent;
+//     transition-property: background-color, box-shadow, color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//         color: var(--color-title-secondary);
+//         background-color: var(--color-accent);
+//         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//             0px 2px 2px rgba(0, 0, 0, 0.12);
+//     }
+
+// }
+
+// .button__order {
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding: 10px;
+//     display: block;
+//     width: 216px;
+//     height: 50px;
+//     font-weight: 700;
+//     cursor: pointer;
+//     font-family: inherit;
+//     line-height: 1.88;
+//     /* identical to box height, or 188% */
+//     align-items: center;
+//     text-align: center;
+//     letter-spacing: 0.06em;
+//     color: var(--color-title-secondary);
+//     background-color: var(--color-accent);
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     border-radius: 4px;
+//     border: none;
+//     transition-property: background-color, border, box-shadow;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     :focus {
+//         background: var(--color-background);
+//     }
+
+// }
+
+// .button__list {
+//     margin-bottom: 50px;
+//     display: flex;
+//     justify-content: center;
+//     gap: 9px;
+// }
