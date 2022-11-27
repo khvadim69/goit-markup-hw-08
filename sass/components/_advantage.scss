@@ -1,62 +1,70 @@
 .advantage {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantage__list {
-    @media (min-width: 480px) {
-        display:flex;
-        justify-content: space-between;
-    width: 1170px
-    }
-display:block;
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+  }
 
-    ;
-}
+  @media (min-width: 480px) and(max-width: 1200px) {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+
+  display: block;
+ }
 
 .adventage__card {
-    @media (min-width: 480px) {width: 270px;
-        
-    }
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:450px;
-    height: 120px;
-    background: var(--color-comand-section);
-    border-radius: 4px;
-    // display: block;
-    
-    
+  @media (max-width: 1200px) and (min-width: 480px) {
+    width: 354px;
+  }
+  @media (min-width: 1200px) {
+    width: 270px;
+  }
+
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 120px;
+  background: var(--color-comand-section);
+  border-radius: 4px;
+  // display: block;
 }
 
 .adventage__icon {
-    display: flex;
+  display: flex;
 }
 
-
 .advantage__title {
-    padding-bottom: 10px;
-    display: inline-block;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  padding-bottom: 10px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advantage__text {
-    @media (min-width: 480px) {width: 270px;
-        
-    }
-    height: 72px;
-    width: 450px;
-    font-size: 14px;
-    line-height: 1.71;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: var(--color-link-text);
+  @media (min-width: 480px) {
+    width: 270px;
+  }
+  height: 72px;
+  width: 450px;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--color-link-text);
 }
 
 // .advantage {
@@ -84,7 +92,6 @@ display:block;
 // .adventage__icon {
 //     display: flex;
 // }
-
 
 // .advantage__title {
 //     padding-bottom: 10px;
