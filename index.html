@@ -59,7 +59,7 @@
               >
             </li>
           </ul>
-          <button type="button" class="button__mobile-menu">
+          <button type="button" class="button__mobile-menu js-open-menu">
             <svg class="button__mobile-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-mobile-menu"></use>
             </svg>
@@ -67,7 +67,6 @@
         </div>
       </div>
     </header>
-
 
     <main>
       <section class="hero hero__backimage">
@@ -78,7 +77,6 @@
           </button>
         </div>
       </section>
-
 
       <section class="advantage">
         <div class="container">
@@ -134,7 +132,6 @@
         </div>
       </section>
 
-
       <section class="specialization">
         <div class="container">
           <h2 class="specialization__title">Чим ми займаємося</h2>
@@ -178,8 +175,6 @@
           </ul>
         </div>
       </section>
-
-
 
       <section class="comand">
         <div class="container">
@@ -376,8 +371,6 @@
         </div>
       </section>
 
-
-
       <section class="client">
         <div class="container">
           <h2 class="client__title">Постоянные клиенты</h2>
@@ -427,16 +420,12 @@
           </ul>
         </div>
       </section>
-
-
-
     </main>
-
 
     <footer class="footer">
       <div class="container">
         <div class="footer__box">
-          <div class="">
+          <div class="footer__box-contact">
             <a href="./index.html" class="logo__footer"
               ><span class="logo--blue">Web</span
               ><span class="logo--white">Studio</span></a
@@ -493,7 +482,7 @@
               </li>
             </ul>
           </div>
-
+        </div>
 
           <div class="footer__box-agreement">
             <h3 class="subscribe">Підпишіться на розсилку</h3>
@@ -513,13 +502,9 @@
               </button>
             </div>
           </div>
-
-
         </div>
       </div>
     </footer>
-
-
 
     <div class="modal__backdrop is-hidden" data-modal>
       <div class="modal">
@@ -597,10 +582,10 @@
       </div>
     </div>
 
-    <!-- <div class="mobile-menu">
+    <div class="mobile-menu js-menu-container">
       <div class="mobile-menu__container">
         <nav class="mobile-menu__nav">
-          <button type="button" class="mobile-menu__button-close">
+          <button type="button" class="mobile-menu__button-close js-close-menu">
             <svg width="24" height="24">
               <use href="./images/icons.svg#icon-Vector"></use>
             </svg>
@@ -619,23 +604,30 @@
         </nav>
         <ul class="">
           <li class="">
+            <a href="tel:+380961111111" class="mobile-menu__tel">
+              +38 096 111 11 11</a
+            >
+          </li>
+          <li class="">
             <a
               href="mailto:info@devstudio.com"
-              class="mobile-menu__nav-contact"
+              class="mobile-menu__mail"
             >
               info@devstudio.com</a
             >
           </li>
-          <li class="">
-            <a href="tel:+380961111111" class="mobile-menu__nav-contact">
-              +38 096 111 11 11</a
-            >
-          </li>
+          <ul class="mobile-menu__social-list">
+         
+            <li class=""><a href="#" class="mobile-menu__social-item">Instagram</a></li>
+            <li class=""><a href="#" class="mobile-menu__social-item">Twitter</a></li>
+            <li class=""><a href="#" class="mobile-menu__social-item">Facebook</a></li>
+            <li class=""><a href="#" class="mobile-menu__social-item">LinkedIn</a></li>           </ul>
+          
         </ul>
       </div>
-    </div> -->
+    </div>
 
-    <script defer src="js/mobile-menu.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
