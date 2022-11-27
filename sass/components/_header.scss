@@ -10,7 +10,7 @@
 }
 
 .header__list-nav {
-    @media (min-width: 480px) {
+    @media (min-width: 786px) {
             display:flex;
         }
 
@@ -47,7 +47,7 @@
 
 
 .header__contact-list {
-    @media (min-width: 480px) {
+    @media (min-width: 786px) {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;

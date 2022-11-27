@@ -1,4 +1,11 @@
 .social-icon__list {
+    @media (max-width: 1200px) {
+            // width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 60px;
+       
+        }
     display: flex;
     justify-content: center;
     justify-items: center;

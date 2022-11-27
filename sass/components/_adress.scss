@@ -1,4 +1,10 @@
 .adress {
+    @media (max-width: 1200px) {
+            // width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 12px;
+        }
     display: block;
     margin-bottom: 9px;
     font-style: normal;
@@ -10,6 +16,14 @@
 }
 
 .adress__footer {
+    @media (max-width: 1200px) {
+            // width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 12px;
+            display: block;
+        }
+    
     margin-bottom: 9px;
 }
 

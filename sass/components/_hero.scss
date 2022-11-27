@@ -1,19 +1,28 @@
 .hero {   
-    @media  (min-width:480px) {
+    @media  (min-width:1200px) {
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 }
     display: block;
-    padding-top: 200px;
-    padding-bottom: 200px;
+        padding-top: 118px;
+        padding-bottom: 118px;
+    
     height: 400px;
     background-color: var(--color-order-section);
     background: var(--color-background-order);
 }
 
 .hero__backimage {
+    @media (min-width:1200px) {
+        height: 600px;
+        width: 100%;
+    
+        }
+       
     max-width: 1600px;
-    height: 600px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid var(--color-background-order);
@@ -26,7 +35,7 @@
 }
 
 .hero-title {
-    @media (min-width:480px) {
+    @media (min-width:1200px) {
             width: 696px;
             font-size: 44px;
     
@@ -35,7 +44,7 @@
     margin-right: auto;
     margin-bottom: 30px;
     display: block;
-    width: 360px;
+    width: 100%;
     text-align: center;
     font-weight: 900;
     font-size: 26px;
