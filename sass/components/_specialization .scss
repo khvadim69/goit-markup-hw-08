@@ -42,6 +42,16 @@
     padding-bottom: 27px;
     bottom: 0%;
 }
+.specialization_image{ 
+    @media(min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx){
+           
+            
+        }
+} 
+
+
 
 
 // .specialization {
