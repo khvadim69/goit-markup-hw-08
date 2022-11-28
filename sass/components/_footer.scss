@@ -9,8 +9,8 @@
 
       @media (min-width: 1200px) {
     display: flex;
-    align-items:center;
-    gap: 70px;
+    align-items:baseline;
+    gap: 94px;
   }
   }
 
@@ -18,18 +18,18 @@
   @media (min-width: 1200px) {
     display: flex;
     align-items: baseline;
-    gap: 70px;
+    gap: 94px;
   }
   @media (min-width: 768px) {
     display: flex;
-    align-items:center;
+    // align-items:center;
     justify-content: space-between;
-    gap: 165px;
+    // gap: 165px;
   }
   
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .footer__social-icon {
@@ -46,8 +46,11 @@
 
 .footer__box-agreement {
   @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
     width: 570px;
-    margin-left: 23px;
+    // margin-left: 23px;
+    align-items:baseline;
   }
 }
 
@@ -58,8 +61,8 @@
       margin-right: auto;
       margin-bottom: 20px;
       display: flex;
-        flex-direction: column;
-        align-items: center;
+        // flex-direction: column;
+        align-items:baseline;
     }
   margin-bottom: 20px;
   width: 145px;
