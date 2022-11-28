@@ -1,9 +1,18 @@
 .footer {
-  display: block;
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--color-order-section);
 }
+.footer__box-container {
+
+
+      @media (min-width: 1200px) {
+    display: flex;
+    align-items:center;
+    gap: 70px;
+  }
+  }
 
 .footer__box {
   @media (min-width: 1200px) {

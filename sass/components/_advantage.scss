@@ -7,7 +7,7 @@
   @media (min-width: 1200px) {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    // width: 100%;
     gap: 30px;
   }
 
@@ -62,7 +62,11 @@
 }
 
 .advantage__text {
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
+    width: 270px;}
+
+
+  @media (min-width: 768px) and (max-width: 1200px){
     width: 354px;
   }
   @media (max-width: 768px) {
