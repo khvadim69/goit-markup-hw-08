@@ -653,7 +653,7 @@ li {
       flex-basis: 225px;
   fill: var(--color-portfolio-button);
 }
-@media (min-width: 480px) {
+@media (min-width: 1200px) {
   .client__icon-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -692,10 +692,16 @@ li {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media (min-width: 480px) {
+@media (min-width: 1200px) {
   .client__icon {
     width: 170px;
     margin-bottom: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .client__icon {
+    width: 226px;
+    margin-bottom: 30px;
   }
 }
 .client__icon:hover, .client__icon:focus {
@@ -719,7 +725,7 @@ li {
     gap: 30px;
   }
 }
-@media (min-width: 480px) and (max-width: 1200px) {
+@media (min-width: 480px) {
   .comand__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -753,8 +759,13 @@ li {
 }
 @media (max-width: 1200px) and (min-width: 480px) {
   .comand__card {
-    width: 354px;
+    width: 450px;
     margin-bottom: 0px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 768px) {
+  .comand__card {
+    width: 354px;
   }
 }
 @media (min-width: 1200px) {
