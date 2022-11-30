@@ -49,11 +49,14 @@
 }
 
 .comand__title {
+  @media (min-width: 1200px) {
+    font-size: 36px;
+  }
   display: block;
   // width: 450px;
   margin-bottom: 50px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
@@ -65,7 +68,7 @@
 }
 
 .comand {
-  @media (min-width: 480px) {
+  @media (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
   }

@@ -137,7 +137,7 @@ li {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media (min-width: 480px) {
+@media (max-width: 1199px) and (min-width: 480px) {
   .header__nav-contact {
     margin-left: 96px;
     padding: 0px;
@@ -221,9 +221,17 @@ li {
   color: var(--color-accent);
 }
 
-.advantage {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media (min-width: 1200px) {
+  .advantage {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+@media (min-width: 480px) and (max-width: 1199px) {
+  .advantage {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .advantage__list {
@@ -323,11 +331,6 @@ li {
 @media (min-width: 768px) and (max-width: 1199px) {
   .advantage__text {
     width: 354px;
-  }
-}
-@media (max-width: 767px) {
-  .advantage__text {
-    width: 450px;
   }
 }
 
@@ -618,7 +621,7 @@ li {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media (min-width: 480px) {
+@media (min-width: 1200px) {
   .client {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -632,7 +635,7 @@ li {
   letter-spacing: 0.03em;
   text-align: center;
 }
-@media (min-width: 480px) {
+@media (min-width: 1200px) {
   .client__title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -670,6 +673,8 @@ li {
 
 .client__icon {
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
   width: 210px;
   height: 92px;
   display: -webkit-box;
@@ -755,6 +760,7 @@ li {
 @media (max-width: 1199px) and (min-width: 768px) {
   .comand__card {
     width: 354px;
+    margin-bottom: 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -768,10 +774,15 @@ li {
   display: block;
   margin-bottom: 50px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+}
+@media (min-width: 1200px) {
+  .comand__title {
+    font-size: 36px;
+  }
 }
 
 .comand__name-box {
@@ -784,7 +795,7 @@ li {
   padding-bottom: 60px;
   background-color: var(--color-comand-section);
 }
-@media (min-width: 480px) {
+@media (min-width: 1200px) {
   .comand {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -964,7 +975,7 @@ li {
   text-transform: uppercase;
   color: var(--color-title-secondary);
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .footer__call {
     margin-left: auto;
     margin-right: auto;
@@ -975,6 +986,11 @@ li {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+  }
+}
+@media (max-width: 767px) and (min-width: 320px) {
+  .footer__call {
+    margin-top: 60px;
   }
 }
 
@@ -1176,7 +1192,7 @@ li {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media (min-width: 480px) {
+@media (max-width: 1199px) and (min-width: 480px) {
   .header__nav-contact {
     margin-left: 96px;
     padding: 0px;
@@ -1238,11 +1254,11 @@ li {
   margin-right: auto;
   margin-bottom: 30px;
   display: block;
-  width: 100%;
+  width: 360px;
   text-align: center;
   font-weight: 900;
   font-size: 26px;
-  line-height: 1.36;
+  line-height: 1.61;
   /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -1360,6 +1376,7 @@ li {
 }
 
 .mobile-menu__item-nav {
+  display: block;
   margin-bottom: 32px;
   text-decoration: none;
   font-family: "Roboto";
@@ -1382,10 +1399,10 @@ li {
 
 .mobile-menu__tel {
   position: absolute;
-  top: 562px;
+  margin-top: 306px;
   display: block;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.17;
   /* or 171% */
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -1666,8 +1683,11 @@ li {
 }
 
 .subscribe__form {
-  width: 358px;
-  height: 50px;
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 16px;
   background-color: #2f303a;
   font-weight: 400;
@@ -1680,12 +1700,16 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .subscribe__form {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    width: 358px;
+    height: 50px;
+  }
+}
+@media (min-width: 480px) {
+  .subscribe__form {
+    width: 450px;
+    height: 50px;
   }
 }
 
