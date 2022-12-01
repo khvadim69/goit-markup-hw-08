@@ -1,12 +1,10 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOMEWORK8
-      
-    </title>
+    <title>HOMEWORK8</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -29,11 +27,10 @@
               ><span class="logo--blue">Web</span
               ><span class="logo--black">Studio</span></a
             >
+
             <ul class="header__list-nav">
               <li>
-                <a href="./index.html" class="header__item-nav "
-                  >Студія</a
-                >
+                <a href="./index.html" class="header__item-nav">Студія</a>
               </li>
               <li>
                 <a href="./portfolio.html" class="header__item-nav link-current"
@@ -61,6 +58,11 @@
               >
             </li>
           </ul>
+          <button type="button" class="button__mobile-menu js-open-menu">
+            <svg class="button__mobile-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-mobile-menu"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </header>
@@ -83,7 +85,7 @@
               <button type="button" class="button">Маркетинг</button>
             </li>
           </ul>
-           <ul class="card__list">
+          <ul class="card__list">
             <li class="card__item">
               <a href="#" class="card__link">
                 <div class="card__img">
@@ -309,62 +311,67 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer__box">
-          <div class="footer-box-contact">
-            <a href="./index.html" class="logo__footer"
-              ><span class="logo--blue">Web</span
-              ><span class="logo--white">Studio</span></a
-            >
-            <address>
-              <span class="adress">м. Київ, пр-т Лесі Українки, 26</span>
-              <ul>
-                <li class="adress__footer">
-                  <a href="mailto:info@devstudio.com" class="adress__contact"
-                    >info@devstudio.com</a
-                  >
+        <div class="footer__box-container">
+          <div class="footer__box">
+            <div class="footer__box-contact">
+              <a href="./index.html" class="logo__footer"
+                ><span class="logo--blue">Web</span
+                ><span class="logo--white">Studio</span></a
+              >
+
+              <address>
+                <span class="adress">м. Київ, пр-т Лесі Українки, 26</span>
+                <ul>
+                  <li class="adress__footer">
+                    <a href="mailto:info@devstudio.com" class="adress__contact"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                  <li class="adress__footer">
+                    <a href="tel:+380961111111" class="adress__contact"
+                      >+38 096 111 11 11</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+
+            <div class="footer__social-icon">
+              <h3 class="footer__call">присоединяйтесь</h3>
+              <ul class="social-icon__list">
+                <li>
+                  <a href="" class="social-icon__item">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="adress__footer">
-                  <a href="tel:+380961111111" class="adress__contact"
-                    >+38 096 111 11 11</a
-                  >
+                <li>
+                  <a href="" class="social-icon__item">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="social-icon__item">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="social-icon__item">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
-            </address>
+            </div>
           </div>
-          <div class="footer__social-icon">
-            <h3 class="call">присоединяйтесь</h3>
-            <ul class="social-icon__list">
-              <li>
-                <a href="" class="social-icon__item">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="social-icon__item">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
 
-              <li>
-                <a href="" class="social-icon__item">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="social-icon__item">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
           <div class="footer__box-agreement">
             <h3 class="subscribe">Підпишіться на розсилку</h3>
             <div class="subscribe__mail">
@@ -374,6 +381,7 @@
                 class="subscribe__form"
                 placeholder="E-mail"
               />
+
               <button type="submit" class="subscribe__button">
                 Підписатися
                 <svg width="24" height="24">
@@ -386,4 +394,4 @@
       </div>
     </footer>
   </body>
-</html> -->
+</html>
