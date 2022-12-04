@@ -57,7 +57,7 @@ text-decoration: none;
 .mobile-menu__tel{ 
     position: absolute;
     // top: 562px;
-    margin-top: 306px;
+    margin-top:306px;
 
 display: block;
 font-size: 14px;
@@ -118,6 +118,16 @@ border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 .mobile-menu__social-list--bn {
   border: none;
+}
+.mobile-menu__list{
+  display: flex;
+  flex-direction: column;
+}
+.mobile-menu__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 

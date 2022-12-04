@@ -48,11 +48,16 @@
             font-size: 44px;
     
         }
+        @media (min-width:768px)and (max-width:1199px){
+            width: 360px;
+           
+    
+        }
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
     display: block;
-    width: 360px;
+    // width: 360px;
     text-align: center;
     font-weight: 900;
     font-size: 26px;
