@@ -629,13 +629,15 @@
     </div>
 
     <div class="mobile-menu js-menu-container">
+      <button type="button" class="mobile-menu__button-close js-close-menu">
+        <svg width="24" height="24">
+          <use href="./images/icons.svg#icon-Vector"></use>
+        </svg>
+      </button>
       <div class="mobile-menu__container">
-        <nav class="mobile-menu__nav">
-          <button type="button" class="mobile-menu__button-close js-close-menu">
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-Vector"></use>
-            </svg>
-          </button>
+        
+
+        <div class="mobile-menu__nav">
           <ul class="mobile-menu__list">
             <li>
               <a href="./index.html" class="mobile-menu__item-nav">Студія</a>
@@ -647,36 +649,38 @@
             </li>
             <li><a href="" class="mobile-menu__item-nav">Контакт</a></li>
           </ul>
-        </nav>
-        <ul class="">
-          <li class="">
-            <a href="tel:+380961111111" class="mobile-menu__tel">
-              +38 096 111 11 11</a
-            >
-          </li>
-          <li class="">
-            <a href="mailto:info@devstudio.com" class="mobile-menu__mail">
-              info@devstudio.com</a
-            >
-          </li>
-          <ul class="mobile-menu__social-list">
+
+          <ul class="mobile-menu__contact">
             <li class="">
-              <a href="#" class="mobile-menu__social-item">Instagram</a>
+              <a href="tel:+380961111111" class="mobile-menu__tel">
+                +38 096 111 11 11</a
+              >
             </li>
             <li class="">
-              <a href="#" class="mobile-menu__social-item">Twitter</a>
-            </li>
-            <li class="">
-              <a href="#" class="mobile-menu__social-item">Facebook</a>
-            </li>
-            <li class="">
-              <a
-                href="#"
-                class="mobile-menu__social-item mobile-menu__social-list--bn"
-                >LinkedIn</a
+              <a href="mailto:info@devstudio.com" class="mobile-menu__mail">
+                info@devstudio.com</a
               >
             </li>
           </ul>
+        </div>
+
+        <ul class="mobile-menu__social-list">
+          <li class="">
+            <a href="#" class="mobile-menu__social-item">Instagram</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-menu__social-item">Twitter</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-menu__social-item">Facebook</a>
+          </li>
+          <li class="">
+            <a
+              href="#"
+              class="mobile-menu__social-item mobile-menu__social-list--bn"
+              >LinkedIn</a
+            >
+          </li>
         </ul>
       </div>
     </div>
