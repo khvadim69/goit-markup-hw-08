@@ -1062,6 +1062,9 @@ li {
   position: relative;
   margin-bottom: 10px;
 }
+.form__control.form__icon:focus-within {
+  fill: var(--color-accent);
+}
 
 .form__icon {
   width: 16px;
@@ -1078,9 +1081,6 @@ li {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form__iconform__control:focus-within {
-  fill: var(--color-accent);
 }
 
 .form__title {
