@@ -1,64 +1,48 @@
 .client {
-  @media (min-width: 1200px) {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
   padding-bottom: 30px;
+  @media (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .client__title {
-  @media (min-width: 1200px) {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-  }
   margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
+  @media (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+  }
 }
 
 .client__icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: calc((480px - 30px) / 2);
+  fill: var(--color-portfolio-button);
   @media (min-width: 1200px) {
     display: flex;
     gap: 30px;
-
     justify-content: center;
     align-items: center;
   }
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
-
-  flex-basis: calc((480px - 30px) / 2);
-
-  fill: var(--color-portfolio-button);
 }
 
 .client__icon {
-
-  @media (min-width: 1200px) {
-    width: 170px;
-    margin-bottom: 0px;
-  }
-  @media (min-width: 768px) and (max-width: 1199px){
-    width: 226px;
-    margin-bottom: 30px;
-  }
-  // @media (min-width: 320px) and (max-width: 479px){
-  //   width: 100%;
-  
-  // }
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
   width: 210px;
   height: 92px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid var(--color-portfolio-button);
@@ -73,47 +57,90 @@
     fill: var(--color-accent);
     border: 1px solid var(--color-accent);
   }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 226px;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 1200px) {
+    width: 170px;
+    margin-bottom: 0px;
+  }
 }
 
 // .client {
+//   @media (min-width: 1200px) {
 //     padding-top: 94px;
 //     padding-bottom: 94px;
+//   }
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding-top: 60px;
+//   padding-bottom: 30px;
 // }
 
 // .client__title {
+//   @media (min-width: 1200px) {
 //     margin-bottom: 50px;
 //     font-weight: 700;
 //     font-size: 36px;
-//     line-height: 1.16;
-//     letter-spacing: 0.03em;
-//     text-align: center;
+//   }
+//   margin-bottom: 30px;
+//   font-size: 28px;
+//   line-height: 1.16;
+//   letter-spacing: 0.03em;
+//   text-align: center;
 // }
 
 // .client__icon-list {
+//   @media (min-width: 1200px) {
 //     display: flex;
 //     gap: 30px;
+
 //     justify-content: center;
 //     align-items: center;
-//     fill: var(--color-portfolio-button);
+//   }
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content:space-around;
+
+//   flex-basis: calc((480px - 30px) / 2);
+
+//   fill: var(--color-portfolio-button);
 // }
 
 // .client__icon {
-//     width: 170px;
-//     height: 92px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     border: 1px solid var(--color-portfolio-button);
-//     border-radius: 4px;
-//     fill: var(--color-portfolio-button);
-//     border: 1px solid var(--color-portfolio-button);
-//     transition-property: border, fill;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-//     &:hover,
-//     &:focus {
-//         fill: var(--color-accent);
-//         border: 1px solid var(--color-accent);
-//     }
+//   @media (min-width: 1200px) {
+//     width: 170px;
+//     margin-bottom: 0px;
+//   }
+//   @media (min-width: 768px) and (max-width: 1199px){
+//     width: 226px;
+//     margin-bottom: 30px;
+//   }
+//   // @media (min-width: 320px) and (max-width: 479px){
+//   //   width: 100%;
+
+//   // }
+//   margin-bottom: 30px;
+//   margin-right: auto;
+//   margin-left: auto;
+//   width: 210px;
+//   height: 92px;
+//   display:flex;
+//   justify-content: center;
+//   align-items: center;
+//   border: 1px solid var(--color-portfolio-button);
+//   border-radius: 4px;
+//   fill: var(--color-portfolio-button);
+//   border: 1px solid var(--color-portfolio-button);
+//   transition-property: border, fill;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     fill: var(--color-accent);
+//     border: 1px solid var(--color-accent);
+//   }
 // }

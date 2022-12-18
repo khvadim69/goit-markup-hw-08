@@ -1,68 +1,52 @@
 .comand__list {
-@media (min-width: 1200px) {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        gap: 30px;
-    }
-
-    @media (min-width: 768px)  {
-        display: flex;
-        gap: 30px;
-        flex-wrap: wrap;
-        flex-basis: calc((100% - 30px) / 2);
-    }
-
-  // @media (min-width: 480px) {
-  //   justify-content: space-between;
-  //   display: flex;
-  //   gap: 30px;
-  
-  // }
-
-    width: 100%;
+  width: 100%;
   display: block;
-
+  @media (min-width: 768px) {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+  }
 }
 .comand__card {
-@media (max-width: 767px) and (min-width: 480px) {
-        width: 450px;
-        margin-bottom: 30px;
-    }
-
-        @media (max-width: 1199px) and (min-width: 768px) {
-          width: 354px;
-          margin-bottom: 0px;
-        }
-
-    @media (min-width: 1200px) {
-        width: 270px;
-        margin-bottom: 0px;
-    }
-
   margin-bottom: 30px;
   width: 100%;
   background-color: var(--color-title-secondary);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  @media (max-width: 767px) and (min-width: 480px) {
+    width: 450px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 1199px) and (min-width: 768px) {
+    width: 354px;
+    margin-bottom: 0px;
+  }
+  @media (min-width: 1200px) {
+    width: 270px;
+    margin-bottom: 0px;
+  }
 }
 
 .comand__title {
-  @media (min-width: 1200px) {
-    font-size: 36px;
-    margin-bottom: 50px;
-  }
-  
-
   display: block;
-  // width: 450px;
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  @media (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .comand__name-box {
@@ -71,18 +55,17 @@
 }
 
 .comand {
-  @media (min-width: 1200px) {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--color-comand-section);
   @media (min-width: 480px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  padding-top: 30px;
-  padding-bottom: 30px;
-
-  background-color: var(--color-comand-section);
+  @media (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .comand__card-name {
@@ -90,14 +73,12 @@
   padding-bottom: 10px;
   font-weight: 500;
   line-height: 1.17;
-  /* identical to box height */
   letter-spacing: 0.03em;
   text-align: center;
 }
 
 .comand__card-profession {
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--color-link-text);
   text-align: center;
@@ -130,39 +111,85 @@
 }
 
 // .comand__list {
-//     display: flex;
-//     justify-content: space-between;
-// }
+//   @media (min-width: 1200px) {
+//           display: flex;
+//           justify-content: space-between;
+//           width: 100%;
+//           gap: 30px;
+//       }
 
-// .comand__title {
-//     margin-bottom: 50px;
+//       @media (min-width: 768px)  {
+//           display: flex;
+//           gap: 30px;
+//           flex-wrap: wrap;
+//           flex-basis: calc((100% - 30px) / 2);
+//       }
+
+//       width: 100%;
+//     display: block;
+
+//   }
+//   .comand__card {
+//   @media (max-width: 767px) and (min-width: 480px) {
+//           width: 450px;
+//           margin-bottom: 30px;
+//       }
+
+//           @media (max-width: 1199px) and (min-width: 768px) {
+//             width: 354px;
+//             margin-bottom: 0px;
+//           }
+
+//       @media (min-width: 1200px) {
+//           width: 270px;
+//           margin-bottom: 0px;
+//       }
+
+//     margin-bottom: 30px;
+//     width: 100%;
+//     background-color: var(--color-title-secondary);
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//       0px 2px 1px rgba(0, 0, 0, 0.2);
+//     border-radius: 0px 0px 4px 4px;
+//   }
+
+//   .comand__title {
+//     @media (min-width: 1200px) {
+//       font-size: 36px;
+//       margin-bottom: 50px;
+//     }
+
+//     display: block;
+//     // width: 450px;
+//     margin-bottom: 30px;
 //     font-weight: 700;
-//     font-size: 36px;
+//     font-size: 28px;
 //     line-height: 1.17;
 //     letter-spacing: 0.03em;
 //     text-align: center;
-// }
+//   }
 
-// .comand__name-box {
+//   .comand__name-box {
 //     padding-top: 30px;
 //     padding-bottom: 30px;
-// }
+//   }
 
-// .comand__card {
-//     width: 270px;
-//     background-color: var(--color-title-secondary);
-//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//         0px 2px 1px rgba(0, 0, 0, 0.2);
-//     border-radius: 0px 0px 4px 4px;
-// }
+//   .comand {
+//     @media (min-width: 1200px) {
+//       padding-top: 94px;
+//       padding-bottom: 94px;
+//     }
+//     @media (min-width: 480px) {
+//       padding-top: 60px;
+//       padding-bottom: 60px;
+//     }
+//     padding-top: 30px;
+//     padding-bottom: 30px;
 
-// .comand {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
 //     background-color: var(--color-comand-section);
-// }
+//   }
 
-// .comand__card-name {
+//   .comand__card-name {
 //     font-size: 16px;
 //     padding-bottom: 10px;
 //     font-weight: 500;
@@ -170,25 +197,25 @@
 //     /* identical to box height */
 //     letter-spacing: 0.03em;
 //     text-align: center;
-// }
+//   }
 
-// .comand__card-profession {
+//   .comand__card-profession {
 //     line-height: 1.19;
 //     /* identical to box height */
 //     letter-spacing: 0.03em;
 //     color: var(--color-link-text);
 //     text-align: center;
 //     margin-bottom: 16px;
-// }
+//   }
 
-// .comand__social {
+//   .comand__social {
 //     display: flex;
 //     justify-content: center;
 //     align-items: center;
 //     gap: 10px;
-// }
+//   }
 
-// .comand__social-icon {
+//   .comand__social-icon {
 //     width: 40px;
 //     height: 40px;
 //     fill: var(--color-portfolio-button);
@@ -199,10 +226,9 @@
 //     transition-property: background-color, fill;
 //     transition-duration: 250ms;
 //     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 //     &:hover,
 //     &:focus {
-//         background-color: var(--color-accent);
-//         fill: var(--color-title-secondary);
+//       background-color: var(--color-accent);
+//       fill: var(--color-title-secondary);
 //     }
-// }
+//   }

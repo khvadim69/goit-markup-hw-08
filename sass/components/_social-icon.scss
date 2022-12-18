@@ -1,39 +1,41 @@
 .social-icon__list {
-    @media (max-width: 1200px) {
-            // width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 60px;
-       
-        }
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  @media (max-width: 1200px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
 }
 
 .social-icon__item {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: var(--color-title-secondary);
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-        &:focus {
-            background-color: var(--color-accent);
-        }
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--color-title-secondary);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--color-accent);
+  }
 }
 
-
-
-
 // .social-icon__list {
+//     @media (max-width: 1200px) {
+//             // width: 100%;
+//             margin-left: auto;
+//             margin-right: auto;
+//             margin-bottom: 60px;
+
+//         }
 //     display: flex;
 //     justify-content: center;
 //     justify-items: center;
@@ -52,9 +54,8 @@
 //     transition-property: background-color;
 //     transition-duration: 250ms;
 //     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 //     &:hover,
-//     &:focus {
-//         background-color: var(--color-accent);
-//     }
+//         &:focus {
+//             background-color: var(--color-accent);
+//         }
 // }
